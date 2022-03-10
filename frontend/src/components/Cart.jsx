@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./css/cart.css";
 
-export const Cart = () => {
+function Cart() {
   let [data, setData] = useState([]);
   const navigate = useNavigate();
 
@@ -60,4 +60,5 @@ export const Cart = () => {
       )}
     </div>
   );
-};
+}
+export default Cart;

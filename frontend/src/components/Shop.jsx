@@ -1,8 +1,8 @@
 import "./css/shop.css";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
-export const Shop = () => {
+function Shop() {
   const [data, setData] = useState([]);
   useEffect(() => {
     getData();
@@ -139,4 +139,6 @@ export const Shop = () => {
       </div>
     </div>
   );
-};
+}
+
+export default Shop;

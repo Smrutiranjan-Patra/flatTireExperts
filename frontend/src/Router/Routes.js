@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom'
-import { ShopDetails } from '../components/ShopDetails'
-import { Shop } from '../components/Shop'
-import { Cart } from '../components/Cart'
-import { Checkout } from '../components/Checkout'
-import { Success } from '../components/Success'
+import ShopDetails from '../components/ShopDetails'
+import Shop from '../components/Shop'
+import Cart from '../components/Cart'
+import Checkout from '../components/Checkout'
+import Success from '../components/Success'
 
 function Routers() {
     return (

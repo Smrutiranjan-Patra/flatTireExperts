@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./css/success.css";
 
-export const Success = () => {
+function Success() {
   const [data, setData] = useState([]);
   const navigate = useNavigate();
 
@@ -50,4 +50,5 @@ export const Success = () => {
       </button>
     </div>
   );
-};
+}
+export default Success;

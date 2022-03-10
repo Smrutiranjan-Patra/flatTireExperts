@@ -1,8 +1,8 @@
 import "./css/shopDetails.css";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
-export const ShopDetails = () => {
+function ShopDetails() {
   const [data, setData] = useState({});
   const [form, setForm] = useState([]);
   const { id } = useParams();
@@ -42,7 +42,7 @@ export const ShopDetails = () => {
 
   const handleClick = () => {
     localStorage.setItem("service_cart", JSON.stringify(form));
-    alert(" Succesfully added to cart !!");
+    alert(" Product Added!");
     navigate("/cart");
   };
 
@@ -126,4 +126,5 @@ export const ShopDetails = () => {
       </div>
     </div>
   );
-};
+}
+export default ShopDetails;

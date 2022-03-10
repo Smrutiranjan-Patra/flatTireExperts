@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./css/checkout.css";
 
-export const Checkout = () => {
+function Checkout() {
   const [total, setTotal] = useState(0);
   const [form, setForm] = useState([]);
   const navigate = useNavigate();
@@ -83,4 +83,6 @@ export const Checkout = () => {
       </div>
     </div>
   );
-};
+}
+
+export default Checkout;

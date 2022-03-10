@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Highway Puncher Shop",
+    "img": "https://i.pinimg.com/736x/de/58/96/de589657b54525c4729e61f7da438290.jpg",
+    "location": "Pune",
+    "rating": 5,
+    "payment": "online",
+    "discount": 10
+  },
+  {
+    "name": "Delhi Puncher Shop",
+    "img": "https://content3.jdmagicbox.com/comp/indore/u6/0731px731.x731.140504225814.t6u6/catalogue/shri-sai-car-garage-and-exclusive-work-shop-mahalaxmi-nagar-indore-car-repair-and-services-uf4wt.jpg",
+    "location": "Pune",
+    "rating": 3,
+    "payment": "offline",
+    "discount": 30
+  },
+  {
+    "name": "Finno Puncher Shop",
+    "img": "https://static.giggster.com/images/location/794acd45-3d36-44eb-ac42-f5558f68119b/641d02b0-c2e9-4ed6-aa87-a78e27b0bd5e/full_hd_retina.jpeg",
+    "location": "Pune",
+    "rating": 4,
+    "payment": "online",
+    "discount": 20
+  },
+  {
+    "name": "Vimal Puncher Shop",
+    "img": "https://hips.hearstapps.com/pop.h-cdn.co/assets/cm/15/05/54caa0df15d7e_-_pmgarageshot_400_0410-de.jpg",
+    "location": "Mumbai",
+    "rating": 5,
+    "payment": "offline",
+    "discount": 10
+  },
+  {
+    "name": "Muna Puncher Shop",
+    "img": "https://cdn7.dissolve.com/p/D538_420_079/D538_420_079_1200.jpg",
+    "location": "Mumbai",
+    "rating": 1,
+    "payment": "online",
+    "discount": 50
+  },
+  {
+    "name": "Gullu Puncher Shop",
+    "img": "https://www.autotrainingcentre.com/wp-content/uploads/2015/09/Top-5-Most-Common-Repairs-Youll-Encounter-in-an-Auto-Repair-Career.jpg",
+    "location": "Mumbai",
+    "rating": 2,
+    "payment": "offline",
+    "discount": 40
+  },
+  {
+    "name": "Sharma Auto",
+    "img": "https://www.fantastikautorepair.com/wp-content/uploads/2020/07/Inside-of-Fantastik-Auto-min-scaled.jpg",
+    "location": "Delhi",
+    "rating": 1,
+    "payment": "online",
+    "discount": 50
+  },
+  {
+    "name": "Harry Puncher Shop",
+    "img": "https://di-uploads-pod11.dealerinspire.com/shelormotormile/uploads/2020/05/Webp.net-resizeimage-29-1024x683.jpg",
+    "location": "Kolkata",
+    "rating": 2,
+    "payment": "offline",
+    "discount": 40
+  },
+  {
+    "name": "Viki Puncher Shop",
+    "img": "https://tobuz-dev-bkt.s3.amazonaws.com/1570190198326car_jpg",
+    "location": "Kolkata",
+    "rating": 3,
+    "payment": "online",
+    "discount": 30
+  },
+  {
+    "name": "Miki Puncher shop",
+    "img": "https://washguyslube.com/wp-content/uploads/2021/05/Washguys1.jpg",
+    "location": "Kolkata",
+    "rating": 4,
+    "payment": "offline",
+    "discount": 20
+  },
+  {
+    "name": "Viki Puncher Shop",
+    "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-532594228-1537455729.jpg",
+    "location": "Delhi",
+    "rating": 2,
+    "payment": "offline",
+    "discount": 40
+  },
+  {
+    "name": "Shyam punchers",
+    "img": "https://www.motortrend.com/uploads/sites/11/2018/06/Honda-Civic-Type-R-at-Jay-Lenos-Garage-8377.jpg",
+    "location": "Delhi",
+    "rating": 1,
+    "payment": "online",
+    "discount": 50
+  },
+  {
+    "name": "Rajan Auto shop",
+    "img": "https://st.hzcdn.com/simgs/pictures/garages/vintage-modern-garage-haus-architecture-for-modern-lifestyles-img~523121080b394b97_14-4002-1-8d9e5bd.jpg",
+    "location": "Delhi",
+    "rating": 3,
+    "payment": "online",
+    "discount": 30
+  },
+  {
+    "name": "Dilwale Puncher Shop",
+    "img": "https://americandiyg.com/adiyg/wp-content/uploads/2021/10/2017-03-17-15.51.20-scaled.jpg",
+    "location": "Delhi",
+    "rating": 4,
+    "payment": "offline",
+    "discount": 20
+  },
+
+
+  
+  {
+    "name": "Ramu Puncher Shop",
+    "img": "https://americandiyg.com/adiyg/wp-content/uploads/2021/10/2017-03-17-15.51.20-scaled.jpg",
+    "location": "Delhi",
+    "rating": 4,
+    "payment": "offline",
+    "discount": 20
+  }
+]

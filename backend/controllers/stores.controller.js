@@ -1,12 +1,12 @@
 const express = require("express");
-const Shop = require("../models/shop.model");
+const Store = require("../models/store.model");
 const router = express.Router();
 
 //get requests
 
 router.get("/:id", async (req, res) => {
   try {
-    let shop = await Shop.findById(req.params.id).lean().exec();
+    let shop = await Store.findById(req.params.id).lean().exec();
     return res.status(201).send(shop);
   } catch (e) {
     return res.status(500).json({ status: "Failed", message: e.message });
@@ -16,7 +16,7 @@ router.get("/:id", async (req, res) => {
 
 router.get("", async (req, res) => {
   try {
-    let shop = await Shop.find().lean().exec();
+    let shop = await Store.find().lean().exec();
     return res.status(201).send(shop);
   } catch (e) {
     return res.status(500).json({ status: "Failed", message: e.message });
@@ -26,7 +26,7 @@ router.get("", async (req, res) => {
 
 router.get("/location/:location", async (req, res) => {
   try {
-    let shop = await Shop.find({ location: req.params.location }).lean().exec();
+    let shop = await Store.find({ location: req.params.location }).lean().exec();
     return res.status(201).send(shop);
   } catch (e) {
     return res.status(500).json({ status: "Failed", message: e.message });
@@ -36,7 +36,7 @@ router.get("/location/:location", async (req, res) => {
 
 router.get("/rating/:rating", async (req, res) => {
   try {
-    let shop = await Shop.find({ rating: req.params.rating }).lean().exec();
+    let shop = await Store.find({ rating: req.params.rating }).lean().exec();
     return res.status(201).send(shop);
   } catch (e) {
     return res.status(500).json({ status: "Failed", message: e.message });
@@ -45,7 +45,7 @@ router.get("/rating/:rating", async (req, res) => {
 
 router.get("/payment/:payment", async (req, res) => {
   try {
-    let shops = await Shop.find({ payment: req.params.payment }).lean().exec();
+    let shops = await Store.find({ payment: req.params.payment }).lean().exec();
     return res.status(201).send(shop);
   } catch (e) {
     return res.status(500).json({ status: "Failed", message: e.message });
@@ -54,7 +54,7 @@ router.get("/payment/:payment", async (req, res) => {
 
 router.get("/discount/:discount", async (req, res) => {
   try {
-    let shop = await Shop.find({ discount: req.params.discount }).lean().exec();
+    let shop = await Store.find({ discount: req.params.discount }).lean().exec();
     return res.status(201).send(shop);
   } catch (e) {
     return res.status(500).json({ status: "Failed", message: e.message });
@@ -62,7 +62,7 @@ router.get("/discount/:discount", async (req, res) => {
 });
 router.post("", async (req, res) => {
   try {
-    let shop = await Shop.create(req.body);
+    let shop = await Store.create(req.body);
     return res.status(201).send({ shop });
   } catch (e) {
     return res.status(500).json({ status: "Failed", message: e.message });

@@ -10,7 +10,7 @@ function Shop() {
 
   const getData = () => {
     try {
-      fetch("https://glacial-reaches-07546.herokuapp.com")
+      fetch("http://localhost:2022/")
         .then((d) => d.json())
         .then((res) => {
           setData(res);
@@ -23,9 +23,7 @@ function Shop() {
 
   const filterByLocation = (e) => {
     try {
-      fetch(
-        `https://glacial-reaches-07546.herokuapp.com/location/${e.target.value}`
-      )
+      fetch(`http://localhost:2022/location/${e.target.value}`)
         .then((d) => d.json())
         .then((res) => {
           setData(res);
@@ -38,9 +36,7 @@ function Shop() {
 
   const filterByRating = (e) => {
     try {
-      fetch(
-        `https://glacial-reaches-07546.herokuapp.com/rating/${e.target.value}`
-      )
+      fetch(`http://localhost:2022/rating/${e.target.value}`)
         .then((d) => d.json())
         .then((res) => {
           setData(res);
@@ -53,9 +49,7 @@ function Shop() {
 
   const filterByPayment = (e) => {
     try {
-      fetch(
-        `https://glacial-reaches-07546.herokuapp.com/payment/${e.target.value}`
-      )
+      fetch(`http://localhost:2022/payment/${e.target.value}`)
         .then((d) => d.json())
         .then((res) => {
           setData(res);
@@ -67,11 +61,8 @@ function Shop() {
   };
 
   const filterByDiscount = (e) => {
-    console.log(e.target.value);
     try {
-      fetch(
-        `https://glacial-reaches-07546.herokuapp.com/discount/${e.target.value}`
-      )
+      fetch(`http://localhost:2022/discount/${e.target.value}`)
         .then((d) => d.json())
         .then((res) => {
           setData(res);
@@ -91,10 +82,10 @@ function Shop() {
         <div className="shopdivbottom">
           <select name="" className="filterBy" onChange={filterByLocation}>
             <option hidden>Location</option>
-            <option value="karolbagh">Karol Bagh</option>
-            <option value="chandnichowk">Chandi Chowk</option>
-            <option value="nehruplace">Nehru Place</option>
-            <option value="newdelhi">New Delhi</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">DelhiDelhi</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Pune">Pune</option>
           </select>
           <select name="" className="filterBy" onChange={filterByRating}>
             <option hidden>Rating</option>
@@ -125,11 +116,9 @@ function Shop() {
                 <img src={e.img} alt={e.name} />
                 <div className="shopDetailDiv">
                   <div>
-                    {" "}
                     <h3 className="shop_name">{e.name}</h3>
                     <p className="shop_location">{e.location}</p>
                   </div>
-
                   <div className="shopRating">{e.rating}⭐</div>
                 </div>
               </Link>

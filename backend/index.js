@@ -6,8 +6,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const shopController = require("./controllers/shop.controller")
+const storeController = require("./controllers/stores.controller")
 
-app.use("", shopController);
+app.use("", storeController);
 
 module.exports = app;

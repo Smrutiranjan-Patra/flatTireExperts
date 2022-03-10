@@ -13,8 +13,7 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-
-router.get("", async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     let shop = await Store.find().lean().exec();
     return res.status(201).send(shop);
@@ -22,6 +21,7 @@ router.get("", async (req, res) => {
     return res.status(500).json({ status: "Failed", message: e.message });
   }
 });
+
 
 
 router.get("/location/:location", async (req, res) => {

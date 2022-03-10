@@ -10,7 +10,7 @@ function Shop() {
 
   const getData = () => {
     try {
-      fetch("http://localhost:2022/")
+      fetch("https://flattireexpert.herokuapp.com/")
         .then((d) => d.json())
         .then((res) => {
           setData(res);
@@ -23,7 +23,7 @@ function Shop() {
 
   const filterByLocation = (e) => {
     try {
-      fetch(`http://localhost:2022/location/${e.target.value}`)
+      fetch(`https://flattireexpert.herokuapp.com/location/${e.target.value}`)
         .then((d) => d.json())
         .then((res) => {
           setData(res);
@@ -36,7 +36,7 @@ function Shop() {
 
   const filterByRating = (e) => {
     try {
-      fetch(`http://localhost:2022/rating/${e.target.value}`)
+      fetch(`https://flattireexpert.herokuapp.com/rating/${e.target.value}`)
         .then((d) => d.json())
         .then((res) => {
           setData(res);
@@ -47,9 +47,10 @@ function Shop() {
     }
   };
 
+  // https://flattireexpert.herokuapp.com/
   const filterByPayment = (e) => {
     try {
-      fetch(`http://localhost:2022/payment/${e.target.value}`)
+      fetch(`https://flattireexpert.herokuapp.com/payment/${e.target.value}`)
         .then((d) => d.json())
         .then((res) => {
           setData(res);
@@ -62,7 +63,7 @@ function Shop() {
 
   const filterByDiscount = (e) => {
     try {
-      fetch(`http://localhost:2022/discount/${e.target.value}`)
+      fetch(`https://flattireexpert.herokuapp.com/discount/${e.target.value}`)
         .then((d) => d.json())
         .then((res) => {
           setData(res);

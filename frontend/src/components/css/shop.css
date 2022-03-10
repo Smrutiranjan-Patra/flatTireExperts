@@ -1,0 +1,108 @@
+#shopDivMain {
+  display: flex;
+}
+
+#shopList {
+  width: 95%;
+  padding: 3%;
+  height: 653px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 21%);
+  gap: 2%;
+  overflow-y: scroll;
+  justify-content: space-between;
+}
+.shopDiv {
+  padding: 5px;
+  border-radius: 15px 0;
+  border: 5px solid;
+}
+
+.shopDiv img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 0 0 0;
+}
+.shopDetailDiv {
+  margin-top: -6px;
+  background-color: rebeccapurple;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  color: hotpink;
+  border-radius: 0 0 10px 0;
+}
+
+.shopRating {
+  padding: 7px 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.shopListLink {
+  text-decoration: none;
+  width: 300px;
+  color: black;
+  align-items: center;
+}
+
+#sort_filter_div {
+  padding: 15px;
+  width: 100%;
+}
+.shopdivtop {
+  display: grid;
+  place-content: center;
+}
+.shopdivbottom {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+#sort_filter_div_head {
+  font-size: 25px;
+  margin: 20px 0;
+  letter-spacing: 2px;
+  color: tomato;
+}
+.filterBy {
+  width: 90%;
+  padding: 10px;
+  background-color: rgba(0, 128, 0, 0.5);
+  color: white;
+  font-weight: 300;
+  outline: none;
+  font-size: 14px;
+  transition: 0.9s;
+  border-radius: 15px 0;
+}
+.filterBy:hover {
+  background-color: white;
+  color: black;
+}
+#filterDiv {
+  margin-top: 30px;
+}
+#filterDiv select {
+  margin-top: 30px;
+}
+.shop_name {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+.shop_location {
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,58 @@
+#cartDiv {
+  backdrop-filter: blur(7px);
+  width: 40%;
+  height: 500px;
+  margin: 1% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.9s;
+}
+
+#cart_head {
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  padding: 5px;
+}
+#cart_sec_head {
+  color: rgb(51, 45, 45);
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+#service_div {
+  width: 50%;
+  margin: auto;
+  font-size: 22px;
+  background-color: rgb(175, 175, 175);
+  padding: 10px 20px;
+}
+#service_div2 {
+  text-align: center;
+  color: black;
+  width: 50%;
+  margin: auto;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+#check_btn {
+  width: 40%;
+  margin: 10px 30%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid #888888;
+  background-color: rgb(218, 218, 218);
+  transition: 0.7s;
+}
+#check_btn:hover {
+  background-color: white;
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+
+#cart_bottom {
+  padding: 5px 20px;
+}

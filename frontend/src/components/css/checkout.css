@@ -1,0 +1,82 @@
+#checkDiv {
+  /* border: 1px solid black; */
+  backdrop-filter: blur(7px);
+  width: 40%;
+  height: 500px;
+  margin: 1% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.9s;
+}
+#check_head {
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+#check_sec_head {
+  color: rgb(51, 45, 45);
+  text-align: center;
+  margin-top: 10px;
+}
+#service_div {
+  width: 50%;
+  margin: auto;
+  font-size: 22px;
+  padding: 10px 20px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#check_btn {
+  width: 40%;
+  margin: 10px 30%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: black;
+  color: whitesmoke;
+  transition: 0.7s;
+}
+#check_btn:hover {
+  background-color: white;
+  color: black;
+}
+
+#check_bottom {
+  padding: 5px 20px;
+}
+#customer_details {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 2%;
+}
+
+#customer_details input {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-bottom: 1px solid;
+  margin: 7px 0;
+}
+input[type="time"] {
+  width: 20%;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

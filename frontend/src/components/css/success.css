@@ -1,0 +1,41 @@
+#successDiv {
+  backdrop-filter: blur(7px);
+  width: 30%;
+  margin: 1% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.9s;
+}
+
+#success_head {
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  padding: 5px;
+  letter-spacing: 2px;
+}
+
+#success_sec_head {
+  color: rgb(51, 45, 45);
+  text-align: center;
+  margin: 10px;
+}
+#success_middle {
+  width: 69%;
+  margin: auto;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+#success_middle h3 {
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+#success_middle p {
+  letter-spacing: 1px;
+  margin: 7px 0;
+}
+#success_bottom {
+  background-color: rgb(97, 97, 97);
+  padding: 5px 20px;
+}
